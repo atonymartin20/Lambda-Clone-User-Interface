@@ -86,7 +86,7 @@ header {
 }
 
 nav {
-	padding: 20px 0px;
+	padding: 20px 0px 0px 0px;
 	display: inline-block;
 	padding-left: 57px;
 	vertical-align: top;
@@ -110,16 +110,53 @@ nav a {
 
 }
 
-h1 {
+.top {
+	margin: 0 auto;
+	padding: 0px 0px 78px 70px;
+	width: 880px;
+	border-bottom: 1px solid black;
+	margin-top: 80px;
+}
+
+.top img {
+	padding-top: 50px;
+	padding-left: 75px;
+}
+
+.innovation {
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 110px;
+}
+
+.innovation h1 {
 	text-align: center;
 	font-size: 7.5rem;
 	font-weight: 600;
-	display: inline-block;
+	letter-spacing: .4rem;
 }
 
-.top {
-	display: inline-block;
-	padding: 40px;
-	padding-left: 70px;
-	margin-top: 80px;
+.button {
+	text-align: center;
+	width: 175px;
+	border: 1px solid black;
+	margin: 0 auto;
+	padding: 6px 10px;
+	font-size: 1.7rem;
+	background-color: white;
+	-webkit-animation: myAnimation 3s infinite;
+	animation: myAnimation 3s infinite;
+	cursor: pointer;
+}
+
+@-webkit-keyframes myAnimation {
+	50% {
+		background-color: darkgray;
+	}
+}
+
+@keyframes myAnimation {
+	50% {
+		background-color: darkgray;
+	}
 }
