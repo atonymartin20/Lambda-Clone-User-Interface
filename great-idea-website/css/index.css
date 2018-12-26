@@ -72,7 +72,6 @@ html {
 .container {
 	margin: 0 auto;
 	width: 1024px;
-	border: 1px solid grey;
 }
 
 header {
@@ -203,3 +202,36 @@ nav a {
 	margin-right: 1%;
 }
 
+address {
+	width: 880px;
+	margin: 0 auto;
+	margin-top: 38px;
+}
+
+address .not-h2 {
+	font-size: 1.7rem;
+	text-align: left;
+	font-weight: 500;
+	font-family: 'Bangers', cursive;
+	letter-spacing: 1px;
+	margin-bottom: 15px;
+}
+
+address p {
+	line-height: 18px;
+	font-size: 1.6rem;
+}
+
+.contact-info {
+	color: black;
+	margin-left: 0px;
+	text-decoration: none;
+}
+
+footer {
+	text-align: center;
+	font-size: 1.3rem;
+	padding-bottom: 100px;
+	padding-top: 60px;
+	font-family: 'Raleway', sans-serif;
+}
