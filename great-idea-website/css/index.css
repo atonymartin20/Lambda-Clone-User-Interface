@@ -160,3 +160,39 @@ nav a {
 		background-color: darkgray;
 	}
 }
+
+.main-container {
+	width: 880px;
+	margin: 0 auto;
+	margin-top: 38px;
+}
+
+.text-box {
+	display: inline-block;
+	box-sizing: border-box;
+}
+
+.text-box p {
+	line-height: 18px;
+	font-size: 1.6rem;
+}
+
+.text-box h2 {
+	/* margin-top: 30px; */
+	font-weight: 500;
+	font-size: 1.7rem;
+	text-align: left;
+}
+
+.top-mid {
+	margin-bottom: 40px;
+}
+
+.top-mid .text-box {
+	width: 49.85%;
+}
+
+.middle-img {
+	width: 100%;
+	margin-bottom: 30px;
+}
